@@ -35,7 +35,8 @@ const cart = [
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+const summedPrice = cart.reduce((price, curr) => price + curr, 0)
+
 
 
 //////////////////PROBLEM 2////////////////////
@@ -55,6 +56,9 @@ const cart = [
 
 //CODE HERE
 
+const calcFinalPrice = (cartTotal, couponValue, tax) => {
+
+}
 
 
 //////////////////PROBLEM 3////////////////////
@@ -78,7 +82,7 @@ const cart = [
 */
 
 /*
-    TEXT ANSWER HERE
+    Create an object for a customer containing the properties (name, order,)
 
 */
 

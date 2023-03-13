@@ -110,6 +110,15 @@ console.log(category)
 
 const foodArr = [price, category, popularity, rating, tags]
 
+let food = {
+    'price': '15',
+    'category': 'appetizer',
+    'popularity': '3',
+    'rating': '4',
+    'tags': ['kids', 'popular']
+
+}
+
 
 
 //////////////////PROBLEM 4////////////////////

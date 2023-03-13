@@ -84,8 +84,10 @@ canWeDeliver()
 // CODE HERE
 
 const canWeDeliverTwo = (zipcode) => {
-
+    console.log(canWeDeliverTwo.includes(zipcode))
 }
+
+
 
 
 //////////////////PROBLEM 3////////////////////
